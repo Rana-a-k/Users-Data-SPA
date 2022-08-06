@@ -1,0 +1,6 @@
+<div class="user">
+  <h2><span>ID : </span><a routerLink="/users/{{oneUser.id}}">{{oneUser.id}}</a></h2>
+  <h2><span>Name : </span>{{oneUser.name}}</h2>
+  <button class="btnup" routerLink="/update/{{oneUser.id}}">Update</button>
+  <button class="btndel" (click)="DeleteUser(oneUser.id)">Delete</button>
+</div>

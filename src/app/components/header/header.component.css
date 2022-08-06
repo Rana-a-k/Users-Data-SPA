@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 1.5rem auto;
+  background-color: rgb(244, 223, 127);
+  border-radius: 20px;
+}
+
+.logo{
+  width: 50%;
+  margin: auto;
+  font: 1em cursive;
+  color: rgb(212, 69, 160);
+}
+
+ul{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  font: 20px sans-serif;
+  color: gray;
+}
+
+.active{
+  color: rgb(212, 69, 160);
+  font-weight: bold;
+}

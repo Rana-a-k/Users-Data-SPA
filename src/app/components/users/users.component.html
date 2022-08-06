@@ -1,0 +1,4 @@
+<div class="container">
+  <button><a class="btn" routerLink="/add">Add new User</a></button>
+  <app-user-item [oneUser]="u" *ngFor="let u of allusers"></app-user-item>
+</div>

@@ -1,0 +1,26 @@
+.container {
+  box-sizing: border-box;
+  width: 90%;
+  margin: 1.5rem auto;
+  padding: 2rem;
+  background-color: rgb(244, 223, 127);
+  border-radius: 20px;
+}
+
+p{
+  text-align: center;
+  font: bold 2em cursive;
+  color: rgb(212, 69, 160);
+}
+
+a{
+  text-decoration: none;
+  animation: link 3s linear 0s infinite alternate;
+}
+
+@keyframes link {
+  0%   {color: rgb(255, 0, 174);}
+  25%  {color: rgb(179, 143, 183);}
+  50%  {color: rgb(115, 111, 134);}
+  100% {color: rgb(103, 119, 126);}
+}

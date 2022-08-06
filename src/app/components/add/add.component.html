@@ -1,0 +1,10 @@
+<div class="container">
+  <h1>Please, Enter your details</h1>
+  <form method="post" (ngSubmit)="AddNewUser(name.value, age.value, address.value, phone.value)">
+    <input type="text" #name name="userName" placeholder="User Name">
+    <input type="number" #age name="age" placeholder="Age">
+    <input type="text" #address name="address" placeholder="Address">
+    <input type="text" #phone name="phone" placeholder="Phone">
+    <input class="btn" type="submit" value="Add">
+  </form>
+</div>

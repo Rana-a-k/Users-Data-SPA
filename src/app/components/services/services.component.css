@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+  width: 90%;
+  margin: 1.5rem auto;
+  padding: 2rem;
+  background-color: rgb(244, 223, 127);
+  border-radius: 20px;
+}
+
+.service{
+  background-color:beige;
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+h1{
+  text-align: center;
+  color: rgb(212, 69, 160);
+  font-family: cursive;
+}
+
+p{
+  text-align: center;
+  font: bold 1em cursive;
+  color: gray;
+}

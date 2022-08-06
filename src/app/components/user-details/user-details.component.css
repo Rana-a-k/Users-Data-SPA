@@ -1,0 +1,21 @@
+.container {
+  align-items: center;
+  width: 90%;
+  margin: 1.5rem auto;
+  padding: 0.5rem;
+  background-color: rgb(244, 223, 127);
+  border-radius: 20px;
+}
+
+.details{
+  width: 40%;
+  margin: 2rem auto;
+  padding: 1rem;
+  border-radius: 20px;
+  background-color: rgb(249, 248, 247);
+  color: gray;
+}
+
+span {
+  color: rgb(212, 69, 160);
+}

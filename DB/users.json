@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Mohamed",
+      "age": 25,
+      "address": "cairo",
+      "phone": "0120115269"
+    },
+    {
+      "id": 2,
+      "name": "Rana",
+      "age": 28,
+      "address": "cairo",
+      "phone": "0120115269"
+    },
+    {
+      "id": 3,
+      "name": "Mona",
+      "age": 34,
+      "address": "Mansoura",
+      "phone": "01233652155"
+    },
+    {
+      "id": 4,
+      "name": "Esraa",
+      "age": 22,
+      "address": "Suez",
+      "phone": "01026546852"
+    },
+    {
+      "id": 5,
+      "name": "Snoopy",
+      "age": "20",
+      "address": "cairo",
+      "phone": "0120115269"
+    },
+    {
+      "id": 6,
+      "name": "Bella",
+      "age": 5,
+      "address": "cairo",
+      "phone": "0120115269"
+    }
+  ]
+}

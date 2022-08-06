@@ -1,0 +1,53 @@
+.container {
+  align-items: center;
+  width: 90%;
+  margin: 1.5rem auto;
+  padding: 0.5rem;
+  background-color: rgb(244, 223, 127);
+  border-radius: 20px;
+}
+
+a{
+  color: gray;
+  text-decoration: none;
+}
+
+.user{
+  width: 40%;
+  margin: 2rem auto;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 20px;
+  background-color: rgb(249, 248, 247);
+  color: gray;
+}
+
+span {
+  color: rgb(212, 69, 160);
+}
+
+button{
+  width: 12rem;
+  margin: 1.5rem 43%;
+  padding: 0.5rem;
+  color: burlywood;
+  background-color: gray;
+  font: bold 1.5em cursive;
+  border-radius: 5px;
+  border: none;
+}
+
+button:hover{
+  background-color: rgb(212, 69, 160);
+  color: rgb(192, 184, 184);
+  transform: scale(1.1);
+}
+
+.btn{
+  color: burlywood;
+}
+
+.btn:hover{
+  background-color: rgb(212, 69, 160);
+  color: rgb(192, 184, 184);
+}

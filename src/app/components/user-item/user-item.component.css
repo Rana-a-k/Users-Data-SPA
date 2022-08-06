@@ -1,0 +1,37 @@
+a{
+  color: gray;
+  text-decoration: none;
+}
+
+.user{
+  display: inline-block;
+  width: 30%;
+  margin: 2rem 6px;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 20px;
+  background-color: rgb(249, 248, 247);
+  color: gray;
+}
+
+span {
+  color: rgb(212, 69, 160);
+}
+
+button{
+  font: 1em sans-serif;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.btnup{
+  color: blue;
+  background-color: rgb(231, 206, 174);
+}
+
+.btndel{
+  color: red;
+  background-color: rgb(231, 206, 174);
+}

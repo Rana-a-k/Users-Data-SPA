@@ -1,0 +1,9 @@
+<div class="container">
+  <form (ngSubmit)="UpdateUser( name.value, +age.value, address.value, phone.value)">
+    <input type="text" #name name="userName" placeholder="User Name">
+    <input type="number" #age name="age" placeholder="Age">
+    <input type="text" #address name="address" placeholder="Address">
+    <input type="text" #phone name="phone" placeholder="Phone">
+    <input class="btn" type="submit" value="Update">
+  </form>
+</div>
